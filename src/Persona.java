@@ -1,6 +1,6 @@
 public class Persona {
     private int idpersona;
-    private String nombre;
+    public String nombre;
     private int edad;
     private static int contadorPersonas;
 
@@ -31,5 +31,9 @@ public class Persona {
 
     public static int getContadorPersonas() {
         return contadorPersonas;
+    }
+
+    public String getNombre() {
+        return nombre;
     }
 }
